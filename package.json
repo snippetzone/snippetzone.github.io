@@ -1,0 +1,16 @@
+{
+  "name": "snippetzone",
+  "version": "1.0.0",
+  "description": "Snippet Zone github pages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snippetzone/snippetzone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snippetzone/snippetzone/issues"
+  },
+  "homepage": "https://github.com/snippetzone/snippetzone#readme"
+}

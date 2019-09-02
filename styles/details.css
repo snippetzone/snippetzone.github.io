@@ -1,0 +1,125 @@
+p {
+  margin-bottom: 0px; }
+
+.container {
+  max-width: 1025px !important; }
+
+.bg-common {
+  background: #ffefea; }
+
+.verticaly-center {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.header-container {
+  border-bottom: 1px solid rgba(65, 68, 77, 0.1);
+  height: 69px;
+  display: flex; }
+  .header-container .band-logo,
+  .header-container .contact-us {
+    display: inline-flex;
+    align-items: center;
+    width: 50%; }
+  .header-container .band-logo {
+    justify-content: flex-start; }
+  .header-container .contact-us {
+    justify-content: flex-end;
+    letter-spacing: 0.02px;
+    font-size: 14px; }
+    .header-container .contact-us a {
+      color: #41444d; }
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 250px; }
+
+.details .bg-common {
+  background: #fff; }
+
+.details .mentor-profile {
+  background: rgba(223, 225, 237, 0.2);
+  margin-bottom: 56.5px; }
+  .details .mentor-profile .details {
+    display: flex;
+    margin-top: 64.5px;
+    margin-bottom: 56.7px; }
+    .details .mentor-profile .details .img-name-role {
+      margin-bottom: 16px; }
+      .details .mentor-profile .details .img-name-role .image-section {
+        padding-right: 0; }
+        .details .mentor-profile .details .img-name-role .image-section img {
+          border-radius: 50%;
+          width: 66px; }
+      .details .mentor-profile .details .img-name-role .name-role .name {
+        letter-spacing: -0.1px;
+        font-size: 20px;
+        color: #41444d;
+        font-weight: 600;
+        margin-bottom: 2px; }
+      .details .mentor-profile .details .img-name-role .name-role .role {
+        font-size: 15px;
+        font-weight: normal;
+        line-height: normal;
+        letter-spacing: -0.1px;
+        color: #9497a2; }
+    .details .mentor-profile .details .bio-social .bio {
+      font-size: 15px;
+      line-height: 1;
+      letter-spacing: -0.14px;
+      color: #5c5f67;
+      margin-bottom: 16.8px; }
+    .details .mentor-profile .details .bio-social .social a {
+      color: #000;
+      margin-right: 24px;
+      font-size: 16px; }
+
+.details .article,
+.details .video {
+  margin-bottom: 56px;
+  min-height: 137px; }
+  .details .article img.fav,
+  .details .video img.fav {
+    width: 16px;
+    position: absolute;
+    left: -10px;
+    top: 2px; }
+  .details .article .description-,
+  .details .video .description- {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: -0.14px;
+    color: #5c5f67; }
+  .details .article .description,
+  .details .video .description {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.19px;
+    color: #41444d;
+    margin-bottom: 8px; }
+  .details .article .source,
+  .details .video .source {
+    font-size: 13px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: -0.09px;
+    color: #9497a2;
+    margin-bottom: 14.5px; }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .details .article .source,
+      .details .video .source {
+        margin-bottom: 0px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .details .article .source,
+      .details .video .source {
+        margin-bottom: 0px; } }
+    @media (min-width: 1200px) {
+      .details .article .source,
+      .details .video .source {
+        margin-bottom: 0px; } }
+
+/*# sourceMappingURL=details.css.map */
