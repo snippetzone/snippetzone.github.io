@@ -105,6 +105,9 @@ function (_React$Component2) {
         className: "row article"
       }, React.createElement("div", {
         className: "col-12 col-md-8"
+      }, React.createElement("a", {
+        href: this.props.info.link,
+        target: "_blank"
       }, React.createElement("img", {
         className: "fav img-fluid",
         src: this.props.info.fav_ico
@@ -114,12 +117,15 @@ function (_React$Component2) {
         className: "source"
       }, "Video by: ", this.props.info.author), React.createElement("div", {
         className: "description-2"
-      }, this.props.info.short_description)), React.createElement("div", {
+      }, this.props.info.short_description))), React.createElement("div", {
         className: "col-md-4 d-none d-md-block"
+      }, React.createElement("a", {
+        href: this.props.info.link,
+        target: "_blank"
       }, React.createElement("img", {
         className: "img-fluid cover",
         src: this.props.info.thumbnail
-      })));
+      }))));
     }
   }]);
 
@@ -144,6 +150,9 @@ function (_React$Component3) {
         className: "row video align-items-center"
       }, React.createElement("div", {
         className: "col-12 col-md-7"
+      }, React.createElement("a", {
+        href: this.props.info.link,
+        target: "_blank"
       }, React.createElement("img", {
         className: "fav img-fluid",
         src: this.props.info.fav_ico
@@ -151,12 +160,15 @@ function (_React$Component3) {
         className: "description"
       }, this.props.info.title), React.createElement("div", {
         className: "source"
-      }, "Video by: ", this.props.info.author)), React.createElement("div", {
+      }, "Video by: ", this.props.info.author))), React.createElement("div", {
         className: "col-12 col-md-5"
+      }, React.createElement("a", {
+        href: this.props.info.link,
+        target: "_blank"
       }, React.createElement("img", {
         className: "img-fluid cover",
         src: this.props.info.thumbnail
-      })));
+      }))));
     }
   }]);
 

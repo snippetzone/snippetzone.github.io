@@ -105,6 +105,10 @@ p {
 .details .video {
   margin-bottom: 56px;
   min-height: 137px; }
+  .details .article a,
+  .details .video a {
+    text-decoration: none;
+    color: inherit; }
   .details .article img.fav,
   .details .video img.fav {
     width: 16px;
