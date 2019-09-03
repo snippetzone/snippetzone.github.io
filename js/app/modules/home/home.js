@@ -41,6 +41,9 @@ function (_React$Component) {
     value: function render() {
       return React.createElement("div", {
         className: "mentor-bookmark"
+      }, React.createElement("a", {
+        href: this.props.info.link,
+        target: "_blank"
       }, React.createElement("div", {
         className: "list"
       }, React.createElement("div", {
@@ -54,7 +57,7 @@ function (_React$Component) {
         className: "author"
       }, this.props.info.type == "video" && React.createElement("i", {
         "class": "fas fa-play"
-      }), this.props.info.author))));
+      }), this.props.info.author)))));
     }
   }]);
 

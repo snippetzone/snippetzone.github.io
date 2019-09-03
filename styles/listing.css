@@ -113,7 +113,9 @@ p {
       color: #63656d;
       letter-spacing: -0.09px; }
   .listing .mendor-listing-container .mentor-card .mentor-action {
-    display: flex; }
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 24px; }
     .listing .mendor-listing-container .mentor-card .mentor-action .action {
       display: inline-flex;
       align-items: center; }
@@ -148,9 +150,15 @@ p {
           margin-left: 6.8px; }
   .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .carousel-inner {
     height: 320px; }
+  .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark a {
+    text-decoration: none;
+    color: inherit; }
   .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list {
     display: flex;
-    padding: 16px 16px 4px 16px; }
+    padding: 16px 16px 4px 16px;
+    transition: 500ms; }
+    .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list:hover {
+      background: rgba(204, 204, 204, 0.2); }
     .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list .list-thumbnail {
       margin-right: 12px; }
       .listing .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list .list-thumbnail img {

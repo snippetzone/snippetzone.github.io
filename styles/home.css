@@ -179,9 +179,15 @@ p {
           margin-left: 6.8px; }
   .home .mendor-listing-container .mentor-card .mentor-bookmark-container .carousel-inner {
     height: 320px; }
+  .home .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark a {
+    text-decoration: none;
+    color: inherit; }
   .home .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list {
     display: flex;
-    padding: 16px 16px 4px 16px; }
+    padding: 16px 16px 4px 16px;
+    transition: 500ms; }
+    .home .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list:hover {
+      background: rgba(204, 204, 204, 0.2); }
     .home .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list .list-thumbnail {
       margin-right: 12px; }
       .home .mendor-listing-container .mentor-card .mentor-bookmark-container .mentor-bookmark .list .list-thumbnail img {
