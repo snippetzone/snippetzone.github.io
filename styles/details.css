@@ -35,12 +35,31 @@ p {
     letter-spacing: -0.07px;
     text-align: center; }
     .header-container .contact-us a {
-      color: #585b66; }
+      color: #585b66;
+      text-decoration: none; }
 
 .footer-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  height: 250px; }
+  padding-top: 12px;
+  padding-bottom: 14px;
+  height: 40px;
+  display: flex; }
+  .footer-container .copy {
+    justify-content: flex-start; }
+  .footer-container .contact a {
+    display: flex;
+    justify-content: flex-end;
+    color: #24233a;
+    text-decoration: none; }
+  .footer-container .copy,
+  .footer-container .contact {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.09px;
+    color: #24233a;
+    width: 50%; }
 
 .details .bg-common {
   background: #fff; }
