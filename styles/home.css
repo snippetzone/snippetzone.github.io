@@ -5,14 +5,17 @@ p {
   max-width: 1025px !important; }
 
 .bg-common {
-  background: #ffefea; }
+  background: #ffffff; }
+
+.header-row {
+  border-bottom: 1px solid rgba(65, 68, 77, 0.1);
+  background: #fff; }
 
 .verticaly-center {
   margin-top: auto;
   margin-bottom: auto; }
 
 .header-container {
-  border-bottom: 1px solid rgba(65, 68, 77, 0.1);
   height: 69px;
   display: flex; }
   .header-container .band-logo,
@@ -24,25 +27,65 @@ p {
     justify-content: flex-start; }
   .header-container .contact-us {
     justify-content: flex-end;
-    letter-spacing: 0.02px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: -0.07px;
+    text-align: center; }
     .header-container .contact-us a {
-      color: #41444d; }
+      color: #585b66; }
 
 .footer-container {
   padding-top: 40px;
   padding-bottom: 40px;
   height: 250px; }
 
+.home .a-spot {
+  border-bottom: 1px solid rgba(65, 68, 77, 0.1); }
+
 .home .hero-text {
-  margin-top: 10%; }
+  width: 416px;
+  padding-top: 112px;
+  margin-left: auto; }
+  @media (max-width: 768px) {
+    .home .hero-text {
+      width: 100%;
+      padding-top: 40px;
+      margin: 0 auto;
+      text-align: center; } }
   .home .hero-text h1 {
-    font-size: 36px;
-    color: #41444d;
-    font-weight: 800; }
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.71px;
+    color: #15171c; }
+  .home .hero-text h5 {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.33px;
+    color: #848791; }
   .home .hero-text p {
     font-size: 18px;
-    color: #63656d; }
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: -0.09px;
+    color: #585b66; }
+
+.home .hero-content img {
+  width: 277px;
+  padding-top: 68px;
+  padding-bottom: 86px;
+  margin: 0 auto;
+  display: flex; }
 
 .home .home-list-section-title {
   color: #41444d;

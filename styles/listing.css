@@ -5,14 +5,17 @@ p {
   max-width: 1025px !important; }
 
 .bg-common {
-  background: #ffefea; }
+  background: #ffffff; }
+
+.header-row {
+  border-bottom: 1px solid rgba(65, 68, 77, 0.1);
+  background: #fff; }
 
 .verticaly-center {
   margin-top: auto;
   margin-bottom: auto; }
 
 .header-container {
-  border-bottom: 1px solid rgba(65, 68, 77, 0.1);
   height: 69px;
   display: flex; }
   .header-container .band-logo,
@@ -24,10 +27,15 @@ p {
     justify-content: flex-start; }
   .header-container .contact-us {
     justify-content: flex-end;
-    letter-spacing: 0.02px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: -0.07px;
+    text-align: center; }
     .header-container .contact-us a {
-      color: #41444d; }
+      color: #585b66; }
 
 .footer-container {
   padding-top: 40px;
